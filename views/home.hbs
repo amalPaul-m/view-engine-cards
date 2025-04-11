@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <td>Roll Number</td>
+    <td>Full Name</td>
+    <td>Email ID</td>  
+    <td>Phone Number</td>
+  </thead>
+  <tbody>
+    {{#each std}}
+    <tr>
+    <td>{{this.rollNumber}}</td>
+    <td>{{this.name}}</td>
+    <td>{{this.email}}</td>
+    <td>{{this.phone}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
